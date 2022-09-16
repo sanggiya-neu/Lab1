@@ -3,6 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package model;
+import javax.swing.Icon; // type of photo
 
 /**
  *
@@ -28,7 +29,7 @@ public class Profile {
     private String degree2;
     private String degreeStart2;
     private String degreeEnd2;
-    private String photopath;
+    private Icon photo;
 
     public String getFirstName() {
         return firstName;
@@ -182,12 +183,12 @@ public class Profile {
         this.degreeEnd2 = degreeEnd2;
     }
 
-    public String getPhotopath() {
-        return photopath;
+    public Icon getPhoto() {
+        return photo;
     }
 
-    public void setPhotopath(String photopath) {
-        this.photopath = photopath;
+    public void setPhoto(Icon photo) {
+        this.photo = photo;
     }
     
        

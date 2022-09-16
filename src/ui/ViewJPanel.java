@@ -143,6 +143,7 @@ public class ViewJPanel extends javax.swing.JPanel {
 
         degreeLabel2.setText("Degree 2");
 
+        profilePhoto.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         profilePhoto.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
@@ -317,16 +318,17 @@ public class ViewJPanel extends javax.swing.JPanel {
         txtDegree2.setText(profile.getDegree2());
         txtDegreeStart2.setText(profile.getDegreeStart2());
         txtDegreeEnd2.setText(profile.getDegreeEnd2());
-        //txtPhotoUrl.setText(profile.getPhotopath());
-
-//        profile.setPhotopath(" testing");
-
-        
         profilePhoto.setIcon(profile.getPhoto());
 
-//        String path = profile.getPhotopath();
-//        ImageIcon icon = new ImageIcon(path); 
-//        foto.setIcon(icon);
+        // 
+        
+//        if(profilePhoto==null){
+//            profilePhoto.setText("No photo uploaded");
+//        } else {
+//            System.out.println("Photo Uploaded Successfully");
+//            System.out.println(profilePhoto);
+//        };
+        
          
     }
 

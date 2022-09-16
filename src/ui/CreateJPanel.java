@@ -398,7 +398,7 @@ public class CreateJPanel extends javax.swing.JPanel {
 //    private String photopath;
         
         //Prompt user profile was successfully saved
-        JOptionPane.showMessageDialog(null,"Create profile successfully!");
+        JOptionPane.showMessageDialog(null,"Create profile successfully !");
     }//GEN-LAST:event_saveBtnActionPerformed
 
     private void txtPhotoUrlActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtPhotoUrlActionPerformed

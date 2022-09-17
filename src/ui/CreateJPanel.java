@@ -419,11 +419,20 @@ public class CreateJPanel extends javax.swing.JPanel {
         // Assign profile photo
         ImageIcon photoImage =new ImageIcon(im);
         
-        // Set resized img as profile photo
-        profile.setPhoto(photoImage);
-        profilePhoto.setIcon(profile.getPhoto());
-        // Get image local location
-        uploadAdr.setText(path);
+        
+        //  Find out if upload file is img format or nots
+        if(path.indexOf("png") != -1 ||path.indexOf("jpeg") != -1 ||path.indexOf("jpg") != -1 ) {
+            // Set resized img as profile photo
+            profile.setPhoto(photoImage);
+            profilePhoto.setIcon(profile.getPhoto());
+            // Get image local location
+            uploadAdr.setText(path);
+            System.out.println(" Phtoto Upload Successfully !");
+        } else {
+     
+            profilePhoto.setText(" No Photo Selected ");
+            System.out.println(" No Phtoto Selected !");
+        }
     }//GEN-LAST:event_uploadBtnActionPerformed
 
 

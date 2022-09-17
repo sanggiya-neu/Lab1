@@ -68,52 +68,47 @@
                               </Group>
                           </Group>
                       </Group>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" attributes="0">
-                              <EmptySpace min="-2" pref="88" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                                          <Component id="degreeEndLabel2" alignment="0" max="32767" attributes="0"/>
-                                          <Component id="degreeStartLabel2" alignment="0" pref="111" max="32767" attributes="0"/>
-                                          <Component id="degreeLabel2" alignment="0" max="32767" attributes="0"/>
-                                          <Component id="degreeEndLabel1" alignment="0" max="32767" attributes="0"/>
-                                          <Component id="degreeStartLabel1" alignment="0" max="32767" attributes="0"/>
-                                          <Component id="degreeLabel1" max="32767" attributes="0"/>
-                                          <Component id="careerLabel" max="32767" attributes="0"/>
-                                      </Group>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="txtDegree1" alignment="0" min="-2" pref="170" max="-2" attributes="0"/>
-                                          <Component id="txtDegreeStart1" alignment="0" min="-2" pref="170" max="-2" attributes="0"/>
-                                          <Component id="txtDegreeEnd1" alignment="0" min="-2" pref="170" max="-2" attributes="0"/>
-                                          <Component id="txtDegree2" alignment="0" min="-2" pref="170" max="-2" attributes="0"/>
-                                          <Component id="txtDegreeStart2" alignment="0" min="-2" pref="170" max="-2" attributes="0"/>
-                                          <Component id="txtDegreeEnd2" alignment="0" min="-2" pref="170" max="-2" attributes="0"/>
-                                          <Component id="txtCareer" alignment="0" min="-2" pref="170" max="-2" attributes="0"/>
-                                      </Group>
+                      <EmptySpace min="-2" pref="88" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="degreeEndLabel2" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="degreeStartLabel2" alignment="0" pref="111" max="32767" attributes="0"/>
+                                      <Component id="degreeLabel2" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="degreeEndLabel1" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="degreeStartLabel1" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="degreeLabel1" max="32767" attributes="0"/>
+                                      <Component id="careerLabel" max="32767" attributes="0"/>
                                   </Group>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="majorLabel" min="-2" pref="88" max="-2" attributes="0"/>
-                                          <Component id="affiliationLabel" min="-2" pref="111" max="-2" attributes="0"/>
-                                      </Group>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                          <Component id="txtAffiliation" max="32767" attributes="0"/>
-                                          <Component id="txtMajor" min="-2" pref="170" max="-2" attributes="0"/>
-                                      </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="txtDegree1" alignment="0" min="-2" pref="170" max="-2" attributes="0"/>
+                                      <Component id="txtDegreeStart1" alignment="0" min="-2" pref="170" max="-2" attributes="0"/>
+                                      <Component id="txtDegreeEnd1" alignment="0" min="-2" pref="170" max="-2" attributes="0"/>
+                                      <Component id="txtDegree2" alignment="0" min="-2" pref="170" max="-2" attributes="0"/>
+                                      <Component id="txtDegreeStart2" alignment="0" min="-2" pref="170" max="-2" attributes="0"/>
+                                      <Component id="txtDegreeEnd2" alignment="0" min="-2" pref="170" max="-2" attributes="0"/>
+                                      <Component id="txtCareer" alignment="0" min="-2" pref="170" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="majorLabel" min="-2" pref="88" max="-2" attributes="0"/>
+                                      <Component id="affiliationLabel" min="-2" pref="111" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="txtAffiliation" max="32767" attributes="0"/>
+                                      <Component id="txtMajor" min="-2" pref="170" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                           </Group>
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="228" max="-2" attributes="0"/>
-                              <Component id="saveBtn" min="-2" pref="136" max="-2" attributes="0"/>
-                          </Group>
+                          <Component id="saveBtn" alignment="1" min="-2" pref="136" max="-2" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
-              <EmptySpace max="32767" attributes="0"/>
+              <EmptySpace pref="81" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -191,25 +186,24 @@
               </Group>
               <Group type="103" groupAlignment="0" max="-2" attributes="0">
                   <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
-                      <Component id="jLabel22" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="uploadBtn" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="uploadAdr" min="-2" pref="23" max="-2" attributes="0"/>
-                      <EmptySpace max="32767" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="1" attributes="0">
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Component id="photoLabel" min="-2" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" attributes="0">
-                              <EmptySpace min="-2" pref="79" max="-2" attributes="0"/>
-                              <Component id="saveBtn" min="-2" pref="61" max="-2" attributes="0"/>
-                          </Group>
-                          <Component id="localPhoto" min="-2" pref="150" max="-2" attributes="0"/>
-                      </Group>
+                      <Component id="localPhoto" min="-2" pref="150" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="265" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="saveBtn" min="-2" pref="61" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Component id="jLabel22" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="uploadBtn" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="uploadAdr" min="-2" pref="23" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
           </Group>

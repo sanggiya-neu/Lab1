@@ -320,7 +320,8 @@ public class ViewJPanel extends javax.swing.JPanel {
         txtDegreeEnd2.setText(profile.getDegreeEnd2());
         try {
             profilePhoto.setIcon(profile.getPhoto());
-        } catch (Exception e){
+        } 
+        catch (Exception e) {
             profilePhoto.setText("No photo uploaded");
             e.printStackTrace();
         }

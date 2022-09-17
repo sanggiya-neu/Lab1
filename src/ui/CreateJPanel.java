@@ -57,7 +57,7 @@ public class CreateJPanel extends javax.swing.JPanel {
         degreeLabel2 = new javax.swing.JLabel();
         degreeStartLabel2 = new javax.swing.JLabel();
         photoLabel = new javax.swing.JLabel();
-        profilePhoto = new javax.swing.JLabel();
+        localPhoto = new javax.swing.JLabel();
         jLabel21 = new javax.swing.JLabel();
         jLabel22 = new javax.swing.JLabel();
         txtFirstname = new javax.swing.JTextField();
@@ -129,8 +129,8 @@ public class CreateJPanel extends javax.swing.JPanel {
 
         photoLabel.setText("Profile Image");
 
-        profilePhoto.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        profilePhoto.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 2, true));
+        localPhoto.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        localPhoto.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 2, true));
 
         jLabel21.setText("Link");
 
@@ -195,7 +195,7 @@ public class CreateJPanel extends javax.swing.JPanel {
                             .addGroup(layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(photoLabel)
-                                    .addComponent(profilePhoto, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(localPhoto, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(txtPhotoUrl, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -343,7 +343,7 @@ public class CreateJPanel extends javax.swing.JPanel {
                             .addComponent(uploadBtn)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(uploadAdr, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addComponent(profilePhoto, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(localPhoto, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(265, 265, 265))
         );
     }// </editor-fold>//GEN-END:initComponents
@@ -386,6 +386,7 @@ public class CreateJPanel extends javax.swing.JPanel {
         profile.setDegree2(txtDegree2.getText());
         profile.setDegreeStart2(txtDegreeStart2.getText());
         profile.setDegreeEnd2(txtDegreeEnd2.getText());
+        profile.setPhoto(localPhoto.getIcon());
         
 
         
@@ -415,7 +416,7 @@ public class CreateJPanel extends javax.swing.JPanel {
         // Resize the image
         Image im = Toolkit.getDefaultToolkit().createImage(path);
         // get size from window
-        im = im.getScaledInstance(profilePhoto.getWidth(), profilePhoto.getHeight(), Image.SCALE_SMOOTH); 
+        im = im.getScaledInstance(localPhoto.getWidth(), localPhoto.getHeight(), Image.SCALE_SMOOTH); 
         // Assign profile photo
         ImageIcon photoImage =new ImageIcon(im);
         
@@ -423,14 +424,14 @@ public class CreateJPanel extends javax.swing.JPanel {
         //  Find out if upload file is img format or nots
         if(path.indexOf("png") != -1 ||path.indexOf("jpeg") != -1 ||path.indexOf("jpg") != -1 ) {
             // Set resized img as profile photo
-            profile.setPhoto(photoImage);
-            profilePhoto.setIcon(profile.getPhoto());
+  
+            localPhoto.setIcon(photoImage);
             // Get image local location
             uploadAdr.setText(path);
             System.out.println(" Phtoto Upload Successfully !");
         } else {
      
-            profilePhoto.setText(" No Photo Selected ");
+            localPhoto.setText(" No Photo Selected ");
             System.out.println(" No Phtoto Selected !");
         }
     }//GEN-LAST:event_uploadBtnActionPerformed
@@ -455,9 +456,9 @@ public class CreateJPanel extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel22;
     private javax.swing.JLabel lastnameLabel;
+    private javax.swing.JLabel localPhoto;
     private javax.swing.JLabel majorLabel;
     private javax.swing.JLabel photoLabel;
-    private javax.swing.JLabel profilePhoto;
     private javax.swing.JButton saveBtn;
     private javax.swing.JLabel streetLable1;
     private javax.swing.JLabel streetLable2;

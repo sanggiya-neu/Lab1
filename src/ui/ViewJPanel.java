@@ -318,16 +318,22 @@ public class ViewJPanel extends javax.swing.JPanel {
         txtDegree2.setText(profile.getDegree2());
         txtDegreeStart2.setText(profile.getDegreeStart2());
         txtDegreeEnd2.setText(profile.getDegreeEnd2());
-        profilePhoto.setIcon(profile.getPhoto());
+        try {
+            profilePhoto.setIcon(profile.getPhoto());
+        } catch (Exception e){
+            profilePhoto.setText("No photo uploaded");
+            e.printStackTrace();
+        }
+        
 
         
         // If image is succefully uploaded and visable
-        if(profilePhoto.toString().length() <= 336){
-            profilePhoto.setText("No photo uploaded");
-        } else {
-            System.out.println("Photo Uploaded Successfully");
-            System.out.println(profilePhoto.toString().length());
-        };
+//        if(profilePhoto.toString().length() <= 336){
+//            profilePhoto.setText("No photo uploaded");
+//        } else {
+//            System.out.println("Photo Uploaded Successfully");
+//            System.out.println(profilePhoto.toString().length());
+//        };
         
          
     }

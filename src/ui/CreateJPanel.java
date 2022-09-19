@@ -401,6 +401,7 @@ public class CreateJPanel extends javax.swing.JPanel {
                 // Get image local location
                 uploadAdr.setText(path);
                 System.out.println(" Phtoto Upload Successfully !");
+                
             } else {
 
                 localPhoto.setText(" No Photo Selected ");

@@ -323,11 +323,11 @@ public class ViewJPanel extends javax.swing.JPanel {
         // If image is succefully uploaded and visable
         if(profile.getPhoto() != null){
             profilePhoto.setIcon(profile.getPhoto());
-            System.out.println("Photo Uploaded Successfully");  
+            System.out.println("Photo View Successfully");  
 
         } else {
             profilePhoto.setText("No photo uploaded");
-                     
+            System.out.println("No photo shown");                 
         };
         
          

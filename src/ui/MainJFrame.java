@@ -6,8 +6,9 @@ package ui;
 import model.Profile;
 
 /**
- *
+ * For INFO 5100 Assignment 1 of Fall 2022
  * @author ruishang
+ * @studentID 002657703
  */
 public class MainJFrame extends javax.swing.JFrame {
 

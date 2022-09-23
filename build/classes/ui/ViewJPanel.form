@@ -32,19 +32,21 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
                       <EmptySpace min="-2" pref="138" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="streetLable2" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="streetLable1" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="teleLabel" alignment="0" min="-2" pref="89" max="-2" attributes="0"/>
-                          <Component id="emailLabel" alignment="0" max="32767" attributes="0"/>
-                          <Component id="ageLabel" alignment="0" max="32767" attributes="0"/>
-                          <Component id="dobLabel" alignment="0" max="32767" attributes="0"/>
-                          <Component id="lastnameLabel" alignment="0" max="32767" attributes="0"/>
-                          <Component id="fristnameLabel" alignment="0" max="32767" attributes="0"/>
-                          <Component id="cityLabel" alignment="0" max="32767" attributes="0"/>
-                          <Component id="countryLabel" alignment="0" min="-2" pref="89" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="streetLable2" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="streetLable1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="emailLabel" alignment="0" max="32767" attributes="0"/>
+                              <Component id="ageLabel" alignment="0" max="32767" attributes="0"/>
+                              <Component id="dobLabel" alignment="0" max="32767" attributes="0"/>
+                              <Component id="lastnameLabel" alignment="0" max="32767" attributes="0"/>
+                              <Component id="fristnameLabel" alignment="0" max="32767" attributes="0"/>
+                              <Component id="cityLabel" alignment="0" max="32767" attributes="0"/>
+                              <Component id="countryLabel" alignment="0" min="-2" pref="89" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="teleLabel" min="-2" pref="125" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
                           <Component id="txtFirstname" alignment="0" max="32767" attributes="0"/>
                           <Component id="txtLastname" alignment="0" max="32767" attributes="0"/>
@@ -94,11 +96,11 @@
                       </Group>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="347" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="344" max="-2" attributes="0"/>
                       <Component id="profilePhoto" min="-2" pref="200" max="-2" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>

@@ -275,7 +275,7 @@
     </Component>
     <Component class="javax.swing.JLabel" name="teleLabel">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Telephone Numer"/>
+        <Property name="text" type="java.lang.String" value="Telephone Number"/>
         <Property name="toolTipText" type="java.lang.String" value=""/>
       </Properties>
     </Component>

@@ -126,7 +126,7 @@ public class ViewJPanel extends javax.swing.JPanel {
 
         careerLabel.setText("Career");
 
-        teleLabel.setText("Telephone Numer");
+        teleLabel.setText("Telephone Number");
         teleLabel.setToolTipText("");
 
         degreeLabel1.setText("Degree 1");

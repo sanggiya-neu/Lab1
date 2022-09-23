@@ -407,7 +407,7 @@ public class CreateJPanel extends javax.swing.JPanel {
             } else {
 
                 localPhoto.setText(" No Phtoto Selected  ");
-                JOptionPane.showMessageDialog(null,"Please upload photot in correct format ! ");
+                JOptionPane.showMessageDialog(null,"Please upload photo in correct format ! ");
                 System.out.println(" No Phtoto Selected !");
             }
         } 
